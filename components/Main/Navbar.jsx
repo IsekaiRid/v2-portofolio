@@ -8,8 +8,8 @@ const Navbar = () => {
 
 
     return (
-        <nav className='w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-10'>
-            <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
+        <nav className='w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 md:px-10 '>
+            <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 '>
                 <div className=' flex items-center justify-between h-16'>
                     <div className=' flex items-center'>
                         <div className=' flex-shrink-0'>
@@ -36,7 +36,7 @@ const Navbar = () => {
                     </div>
                 </div>
                 <motion.div
-                    className={`sidebar md:hidden fixed right-0 grid grid-cols-1 h-auto pb-10 z-40 shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-lg w-full transform transition ease-in-out duration-300`}
+                    className={`sidebar md:hidden fixed right-0 grid grid-cols-1 h-auto pb-10 z-40 shadow-[#2A0E61]/50 bg-[#240750] bg-opacity-50 backdrop-blur-lg w-full transform transition ease-in-out duration-300`}
                     initial={{ x: "100%" }}
                     animate={{ x: openNav ? 0 : "100%" }}
                     transition={{ ease: "easeInOut", duration: 0.3 }}

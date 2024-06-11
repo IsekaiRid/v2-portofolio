@@ -15,7 +15,7 @@ const SertifikatConten = () => {
                 <h1 className='font-bold text-4xl font-Seymour_One'>Project Me</h1>
                 <p className='font-bold text-md font-kanit mx-5'>Ini adalah proyek yang saya kerjakan pada waktu luang saya untuk menambah pengalaman saya dalam dunia pemrograman</p>
             </div>
-            <div className='justify-center items-center mt-10 mb-3 px-36 h-96'>
+            <div className='justify-center items-center mt-10 mb-3 md:px-36 ml-8 h-96'>
                 <div className="grid md:grid-cols-3 grid-cols-1 gap-3">
                     <motion.img whileHover={{ rotate:10 }}
                         src='./sertifikat1.png' alt='sertifikat' className={isTapped ? 'rounded-md' : 'rounded-md tapped'}

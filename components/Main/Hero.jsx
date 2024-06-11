@@ -21,12 +21,12 @@ const Hero = () => {
           <source src="./blackhole.webm" type="video/webm" />
         </video>
       </div>
-      <div className="container relative flex flex-col justify-center p-6 w-screen px-24 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between z-[25] bg-opacity-0">
-        <div className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left bg-opacity-0">
-          <h1 className="text-md font-bold leading-none sm:text-6xl">
+      <div className="container relative flex flex-col justify-center p-6 w-screen md:px-24 px-10 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between z-[25] bg-opacity-0">
+        <div className="flex flex-col justify-center p-2 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left bg-opacity-0">
+          <h1 className="text-md font-bold leading-none md:text-6xl text-2xl">
             Hai
             <motion.span
-              className="inline-block w-24"
+              className="inline-block md:w-24"
               animate={{
                 rotate: [0, 20, 0],
                 transition: {

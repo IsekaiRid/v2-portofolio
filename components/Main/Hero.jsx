@@ -50,7 +50,17 @@ const Hero = () => {
           </div>
         </div>
         <div className="flex items-center justify-center md:p-6 mb:ml-60 lg:mt-0">
-          <img src="https://th.bing.com/th/id/OIG4.c8MG6kp_zKlgkbT9xsJo?pid=ImgGn" alt="" className="object-contain w-full h-full max-w-md xl:max-w-sm lg:max-w-xl rounded-lg shadow-md" />
+          {/* <img src="/me.jpeg" alt="" className="object-contain w-full h-full max-w-md xl:max-w-sm lg:max-w-xl rounded-lg shadow-md" /> */}
+          <div class="group relative w-full max-w-md xl:max-w-sm lg:max-w-xl">
+            <div class="transition-transform duration-500 ease-out group-hover:rotate-6 group-hover:-translate-y-3 group-hover:scale-105">
+              <img
+                src="/me.jpeg"
+                alt="Image Preview"
+                class="object-contain w-full h-full rounded-lg shadow-md"
+              />
+            </div>
+            {/* <div class="absolute inset-0 bg-gradient-to-br from-purple-500 to-blue-500 opacity-0 group-hover:opacity-20 rounded-lg transition-opacity duration-500"></div> */}
+          </div>
         </div>
       </div>
 

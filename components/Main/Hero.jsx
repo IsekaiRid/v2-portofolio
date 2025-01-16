@@ -10,7 +10,7 @@ const Hero = () => {
   })
 
   return (
-    <section className="relative dark:bg-gray-100 dark:text-gray-800 text-white md:mt-1 mt-10">
+    <section className="relative dark:text-gray-800 text-white md:mt-1 mt-10">
       <div className="absolute top-0 left-0 w-full h-full">
         <video
           className="rotate-180 absolute top-[-250px] h-full w-full left-0 object-cover z-[1]"
